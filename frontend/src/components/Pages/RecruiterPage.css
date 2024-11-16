@@ -1,0 +1,55 @@
+/* Style for the recruiter page container */
+.recruiter-page {
+    text-align: center;
+    padding: 40px;
+    background-color: #f4f4f4;  /* Light background */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for effect */
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  /* Style for the recruiter image container */
+  .recruiter-image-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style for the image */
+  .recruiter-image-container img {
+    width: 100%;  /* Ensure the image takes full width of its container */
+    max-width: 400px;  /* Set a maximum width */
+    height: auto;  /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for the image */
+    object-fit: contain; /* Ensures the full image is visible without cropping */
+    border: 3px solid #007bff; /* Optional border */
+  }
+  
+  /* Hover effect to scale the image slightly */
+  .recruiter-image-container img:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Styling for the page title */
+  .recruiter-page h2 {
+    font-size: 2.5rem; /* Larger font size for title */
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+  }
+  
+  /* Styling for the description text */
+  .recruiter-page p {
+    font-size: 1.2rem; /* Larger font size for the paragraph */
+    color: #555;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
